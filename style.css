@@ -1,0 +1,33 @@
+/* mais sobre view port */
+/* https://www.alura.com.br/artigos/guia-de-unidades-no-css */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
+
+/* guia flex-box */
+/* https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+height: 100vh;
+backgroud-color: #000;
+color: #fff;
+box-sizing: border-box;
+
+.titulo-destaque
+  color: #22d4fd;
+  
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
