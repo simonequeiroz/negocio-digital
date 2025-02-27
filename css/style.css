@@ -1,0 +1,68 @@
+/* Reset de margem e padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Layout Principal */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    max-width: 900px;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Texto */
+.texto {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.4;
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+}
+
+/* Botões */
+.botoes {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.botao {
+    text-decoration: none;
+    color: #000;
+    background-color: #22D4FD;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #1a99c4;
+}
+
+/* Imagem */
+.imagem {
+    max-width: 40%;
+    border-radius: 10px;
+}
